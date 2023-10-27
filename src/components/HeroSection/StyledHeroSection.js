@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import hero from "../../images/hero.png";
 
-export const StyledHero = styled.section`
+export const StyledHeroSection = styled.section`
   height: 90vh;
   background-image: linear-gradient(to bottom, #00000063 92%, #00000000),
     url(${hero});
