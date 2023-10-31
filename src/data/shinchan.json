@@ -7,7 +7,7 @@
             "family": {
                 "parents": {
                     "father": "Hiroshi Nohara",
-                    "mother": "Misae Nohara"
+                    "mother": "Mitsi Nohara"
                 },
                 "sister": "Himawari Nohara"
             },
@@ -22,7 +22,8 @@
                 "snack": "Chocobi",
                 "toy": "Action Kamen",
                 "hobby": "Drawing inappropriate sketches"
-            }
+            },
+            "image": "/images/shinchan.jpg"
         },
         {
             "name": "Hiroshi Nohara",
@@ -33,17 +34,18 @@
                 "Watching baseball"
             ],
             "relationship": {
-                "wife": "Misae Nohara",
+                "wife": "Mitsi Nohara",
                 "children": [
                     "Shinchan",
                     "Himawari"
                 ]
-            }
+            },
+            "image": "/images/harry.jpg"
         },
         {
-            "name": "Misae Nohara",
+            "name": "Mitsi Nohara",
             "age": "32 years",
-            "description": "Misae is Shinchan's patient and loving mother. She manages the household chores while dealing with Shinchan's playful mischief. Misae is a caring and devoted mother who tries her best to provide a loving home for her family.",
+            "description": "Mitsi is Shinchan's patient and loving mother. She manages the household chores while dealing with Shinchan's playful mischief. Misae is a caring and devoted mother who tries her best to provide a loving home for her family.",
             "hobbies": [
                 "Cooking",
                 "Shopping"
@@ -54,7 +56,8 @@
                     "Shinchan",
                     "Himawari"
                 ]
-            }
+            },
+            "image": "/images/mitsi.png"
         },
         {
             "name": "Himawari Nohara",
@@ -70,7 +73,8 @@
                     "mother": "Misae Nohara"
                 },
                 "brother": "Shinchan"
-            }
+            },
+            "image": "/images/himawari.jpg"
         },
         {
             "name": "Kazama",
@@ -86,7 +90,8 @@
                 "Masao",
                 "Bo",
                 "Ai"
-            ]
+            ],
+            "image": "/images/kazama.jpg"
         },
         {
             "name": "Nene Sakurada",
@@ -102,7 +107,8 @@
                 "Masao",
                 "Bo",
                 "Ai"
-            ]
+            ],
+            "image": "/images/nene.jpg"
         },
         {
             "name": "Masao Sato",
@@ -118,7 +124,8 @@
                 "Nene",
                 "Bo",
                 "Ai"
-            ]
+            ],
+            "image": "/images/masao.jpg"
         },
         {
             "name": "Bo Suzuki",
@@ -134,7 +141,8 @@
                 "Nene",
                 "Masao",
                 "Ai"
-            ]
+            ],
+            "image": "/images/bo.jpg"
         },
         {
             "name": "Ai Suotome",
@@ -150,7 +158,8 @@
                 "Nene",
                 "Masao",
                 "Bo"
-            ]
+            ],
+            "image": "/images/ai.jpg"
         },
         {
             "name": "Action Kamen",
@@ -159,19 +168,8 @@
                 "Super strength",
                 "Fighting skills",
                 "High-tech gadgets"
-            ]
-        },
-        {
-            "name": "Mitzi Nohara",
-            "age": "29 years",
-            "description": "Mitzi is Hiroshi's younger sister and Shinchan's aunt. She is a cheerful and supportive woman who loves her family deeply. She occasionally visits the Nohara household and brings joy to everyone.",
-            "hobbies": [
-                "Traveling",
-                "Cooking"
             ],
-            "relationship": {
-                "brother": "Hiroshi Nohara"
-            }
+            "image": "/images/actionkamen.webp"
         },
         {
             "name": "Buriburizaemon",
@@ -179,115 +177,23 @@
             "powers": [
                 "Shape-shifting",
                 "Teleportation"
-            ]
-        },
-        {
-            "name": "Nanako Ohara",
-            "age": "28 years",
-            "description": "Nanako is Kazama's older sister. She is a beautiful and caring woman who is always there to support her younger brother. Nanako shares a friendly bond with Shinchan and the others.",
-            "hobbies": [
-                "Playing the piano",
-                "Gardening"
             ],
-            "relationship": {
-                "brother": "Kazama"
-            }
-        },
-        {
-            "name": "Penny Milfer",
-            "age": "5 years",
-            "description": "Penny Milfer, known as Penny, is an exchange student from Australia. She has a confident and adventurous personality. Penny becomes friends with Shinchan and the gang during her stay in Japan.",
-            "hobbies": [
-                "Surfing",
-                "Playing the didgeridoo"
-            ],
-            "friends": [
-                "Shinchan",
-                "Kazama",
-                "Nene",
-                "Masao",
-                "Bo",
-                "Ai"
-            ]
+            "image": "/images/buriburizaemon.webp"
         },
         {
             "name": "Ume Matsuzaka",
-            "age": "5 years",
-            "description": "Ume, also known as Ume-chan, is a cheerful and lively girl in Shinchan's class. She is friendly with everyone and often participates in various activities with her classmates.",
+            "age": "24 years",
+            "description": "Ume is a teacher in Shinchan's school and she is single. She likes to live stylishly in public but she actually struggles to save her money for accessories and lives in a very cheap, dusty apartment.",
             "hobbies": [
-                "Singing",
-                "Dancing"
+                "Shopping"
             ],
-            "friends": [
-                "Shinchan",
-                "Kazama",
-                "Nene",
-                "Masao",
-                "Bo",
-                "Ai",
-                "Penny"
-            ]
+            "image": "/images/ume.jpeg"
         },
         {
             "name": "Nanako Ohara",
-            "age": "28 years",
-            "description": "Nanako is Kazama's older sister. She is a beautiful and caring woman who is always there to support her younger brother. Nanako shares a friendly bond with Shinchan and the others.",
-            "hobbies": [
-                "Playing the piano",
-                "Gardening"
-            ],
-            "relationship": {
-                "brother": "Kazama"
-            }
-        },
-        {
-            "name": "Nohara Hiro (Future Shinchan)",
-            "age": "25 years",
-            "description": "Future Shinchan is an adult version of Shinchan from the future. He travels back in time using a time machine to meet his younger self and his family. He is more mature and responsible but still retains his mischievous nature.",
-            "occupation": "Kasukabe Defense Force",
-            "relationship": {
-                "wife": "Tamiko Nohara",
-                "children": [
-                    "Himawari Nohara (Future)",
-                    "Nezumi-chan"
-                ]
-            }
-        },
-        {
-            "name": "Tamiko Nohara (Future Misae)",
-            "age": "25 years",
-            "description": "Future Misae is the adult version of Misae from the future. She is married to Future Shinchan and together they have two children. She is a loving and caring mother, just like her present-day self.",
-            "occupation": "Housewife",
-            "relationship": {
-                "husband": "Nohara Hiro",
-                "children": [
-                    "Himawari Nohara (Future)",
-                    "Nezumi-chan"
-                ]
-            }
-        },
-        {
-            "name": "Nohara Himawari (Future Himawari)",
-            "age": "15 years",
-            "description": "Future Himawari is the teenage version of Himawari from the future. She is still as adorable and caring as she is in the present. She shares a close bond with her family, especially her brother, Nezumi-chan.",
-            "occupation": "Student",
-            "relationship": {
-                "parents": {
-                    "father": "Nohara Hiro (Future)",
-                    "mother": "Tamiko Nohara (Future Misae)"
-                },
-                "brother": "Nezumi-chan (Shinchan's future son)"
-            }
-        },
-        {
-            "name": "Nezumi-chan (Future Shinchan's son)",
-            "age": "5 years",
-            "description": "Nezumi-chan is the son of Future Shinchan and Tamiko Nohara. He is the future version of Shinchan's little brother. Nezumi-chan is mischievous and playful, just like his father and uncle.",
-            "relationship": {
-                "father": "Nohara Hiro (Future)",
-                "mother": "Tamiko Nohara (Future Misae)",
-                "uncle": "Shinnosuke Nohara (Shinchan)"
-            }
+            "age": "20 years",
+            "description": "Nanako is a college girl with whom Shinchan is in love. Nanako is the only girl that is unruffled by Shin-chan's behavior, and the only one Shinchan tries to behave for, even being shy and blushing around her. She dreams of being a kindergarten teacher.",
+            "image": "/images/nanako.webp"
         }
     ]
 }
