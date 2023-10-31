@@ -3,9 +3,14 @@ import underline from "./../../images/line-bold.svg";
 import { StyledHeroSection } from "./StyledCharactersCard";
 
 import data from "./../../data/shinchan.json";
+import { useNavigate } from "react-router-dom";
 
 function CharactersCard() {
-  console.log(data);
+  const navigate = useNavigate();
+
+  const onclickCard = (name) => {
+    navigate(`/character?name=${name}`);
+  };
   return (
     <StyledHeroSection>
       <div className="subheading-wrapper">
@@ -15,7 +20,13 @@ function CharactersCard() {
       <div className="container">
         {data.characters?.map((e) => {
           return (
-            <div key={e.name} className="card">
+            <div
+              key={e.name}
+              className="card"
+              onClick={() => {
+                onclickCard(e.name);
+              }}
+            >
               <div className="image">
                 {e.image && <img src={e.image} alt="character" />}
               </div>
