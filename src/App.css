@@ -1,0 +1,10 @@
+.subheading-wrapper {
+  text-align: center;
+}
+
+.subheading {
+  color: #424242;
+  font-size: 2rem;
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 0;
+}
