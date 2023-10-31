@@ -23,7 +23,7 @@
                 "toy": "Action Kamen",
                 "hobby": "Drawing inappropriate sketches"
             },
-            "image": "/shinchan.jpg"
+            "image": "/images/shinchan.jpg"
         },
         {
             "name": "Hiroshi Nohara",
@@ -40,7 +40,7 @@
                     "Himawari"
                 ]
             },
-            "image": "/harry.jpg"
+            "image": "/images/harry.jpg"
         },
         {
             "name": "Mitsi Nohara",
@@ -57,7 +57,7 @@
                     "Himawari"
                 ]
             },
-            "image": "/mitsi.png"
+            "image": "/images/mitsi.png"
         },
         {
             "name": "Himawari Nohara",
@@ -74,7 +74,7 @@
                 },
                 "brother": "Shinchan"
             },
-            "image": "/himawari.jpg"
+            "image": "/images/himawari.jpg"
         },
         {
             "name": "Kazama",
@@ -91,7 +91,7 @@
                 "Bo",
                 "Ai"
             ],
-            "image": "/kazama.jpg"
+            "image": "/images/kazama.jpg"
         },
         {
             "name": "Nene Sakurada",
@@ -108,7 +108,7 @@
                 "Bo",
                 "Ai"
             ],
-            "image": "/nene.jpg"
+            "image": "/images/nene.jpg"
         },
         {
             "name": "Masao Sato",
@@ -125,7 +125,7 @@
                 "Bo",
                 "Ai"
             ],
-            "image": "/masao.jpg"
+            "image": "/images/masao.jpg"
         },
         {
             "name": "Bo Suzuki",
@@ -142,7 +142,7 @@
                 "Masao",
                 "Ai"
             ],
-            "image": "/bo.jpg"
+            "image": "/images/bo.jpg"
         },
         {
             "name": "Ai Suotome",
@@ -159,7 +159,7 @@
                 "Masao",
                 "Bo"
             ],
-            "image": "/ai.jpg"
+            "image": "/images/ai.jpg"
         },
         {
             "name": "Action Kamen",
@@ -169,7 +169,7 @@
                 "Fighting skills",
                 "High-tech gadgets"
             ],
-            "image": "/actionkamen.webp"
+            "image": "/images/actionkamen.webp"
         },
         {
             "name": "Buriburizaemon",
@@ -178,7 +178,7 @@
                 "Shape-shifting",
                 "Teleportation"
             ],
-            "image": "/buriburizaemon.webp"
+            "image": "/images/buriburizaemon.webp"
         },
         {
             "name": "Ume Matsuzaka",
@@ -187,13 +187,13 @@
             "hobbies": [
                 "Shopping"
             ],
-            "image": "/ume.jpeg"
+            "image": "/images/ume.jpeg"
         },
         {
             "name": "Nanako Ohara",
             "age": "20 years",
             "description": "Nanako is a college girl with whom Shinchan is in love. Nanako is the only girl that is unruffled by Shin-chan's behavior, and the only one Shinchan tries to behave for, even being shy and blushing around her. She dreams of being a kindergarten teacher.",
-            "image": "/nanako.webp"
+            "image": "/images/nanako.webp"
         }
     ]
 }
