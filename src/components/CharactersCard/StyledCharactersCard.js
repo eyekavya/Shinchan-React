@@ -26,6 +26,7 @@ export const StyledHeroSection = styled.section`
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in-out;
     border-radius: 15px;
+    cursor: pointer;
   }
   .container .card:hover {
     height: 20rem;
