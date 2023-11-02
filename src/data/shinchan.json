@@ -18,10 +18,12 @@
                 "Bo",
                 "Ai"
             ],
+            "hobbies": [
+                "Drawing inappropriate sketches"
+            ],
             "favorite_things": {
                 "snack": "Chocobi",
-                "toy": "Action Kamen",
-                "hobby": "Drawing inappropriate sketches"
+                "toy": "Action Kamen"
             },
             "image": "/images/shinchan.jpg"
         },
@@ -33,7 +35,7 @@
                 "Fishing",
                 "Watching baseball"
             ],
-            "relationship": {
+            "family": {
                 "wife": "Mitsi Nohara",
                 "children": [
                     "Shinchan",
@@ -50,7 +52,7 @@
                 "Cooking",
                 "Shopping"
             ],
-            "relationship": {
+            "family": {
                 "husband": "Hiroshi Nohara",
                 "children": [
                     "Shinchan",

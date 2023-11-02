@@ -32,7 +32,7 @@ function CharactersCard() {
               </div>
               <div className="content">
                 <h3>{e.name}</h3>
-                <p>{e.description.slice(0, 155)}...</p>
+                <p>{e.description.slice(0, 150)}...</p>
               </div>
             </div>
           );

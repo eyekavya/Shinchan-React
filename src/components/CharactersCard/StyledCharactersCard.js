@@ -59,6 +59,9 @@ export const StyledHeroSection = styled.section`
     visibility: hidden;
     opacity: 0;
     transition: 0.3s ease-in-out;
+    font-family: "Noto Sans", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
   }
 
   .container .card:hover .content {
