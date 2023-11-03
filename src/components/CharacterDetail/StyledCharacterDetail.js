@@ -14,7 +14,7 @@ export const StyledCharacterDetail = styled.section`
     }
 
     p {
-      line-height: 1;
+      line-height: 1.5;
     }
   }
 
@@ -27,6 +27,7 @@ export const StyledCharacterDetail = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 4rem;
     width: 70%;
     margin: 4rem auto;
   }

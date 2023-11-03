@@ -5,5 +5,7 @@ export const StyledFooter = styled.section`
     width: 100%;
     height: auto;
     margin-top: 4rem;
+    position: relative;
+    bottom: -4px;
   }
 `;

@@ -19,7 +19,7 @@ export const StyledHeroSection = styled.section`
     height: 220px;
     width: 290px;
     background-color: #fff;
-    margin: 100px 10px;
+    margin: 80px 10px;
     padding: 20px 15px;
     display: flex;
     flex-direction: column;
@@ -58,7 +58,7 @@ export const StyledHeroSection = styled.section`
     text-align: center;
     visibility: hidden;
     opacity: 0;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
     font-family: "Noto Sans", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.2px;

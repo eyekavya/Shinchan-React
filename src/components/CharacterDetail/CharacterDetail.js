@@ -6,6 +6,8 @@ import underline from "./../../images/line-thin.svg";
 
 import data from "./../../data/shinchan.json";
 import { useSearchParams } from "react-router-dom";
+import Footer from "../Footer";
+import ShinchanAnimation from "../ShinchanAnimation";
 
 function CharacterDetail() {
   let [searchParams] = useSearchParams();
@@ -65,7 +67,9 @@ function CharacterDetail() {
                   <p>Wife: {characterDetails?.family?.wife}</p>
                 )}
                 {characterDetails?.family?.children && (
-                  <p>Children: {characterDetails?.family?.children}</p>
+                  <p>
+                    Children: {characterDetails?.family?.children.join(", ")}
+                  </p>
                 )}
               </div>
             </div>
@@ -104,9 +108,11 @@ function CharacterDetail() {
         </div>
 
         <div className="photo">
-          <img src={characterDetails?.image} alt="character" />
+          {/* <img src={characterDetails?.image} alt="character" /> */}
+          <ShinchanAnimation />
         </div>
       </div>
+      <Footer />
     </StyledCharacterDetail>
   );
 }
