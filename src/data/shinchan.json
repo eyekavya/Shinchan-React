@@ -79,6 +79,12 @@
             "image": "/images/himawari.jpg"
         },
         {
+            "name": "Shiro",
+            "age": "4 years",
+            "description": "Shiro is a white pup Shinchan found in a cardboard box. While he is a beloved member of the family, he is the subject of neglect thanks to his owner's forgetfulness and short attention-span. He is a very intelligent dog, often presenting logic and intellect that surpasses his human owners. An oddly human-like dog, he is very responsible and painstakingly careful.",
+            "image": "/images/shiro.png"
+        },
+        {
             "name": "Kazama",
             "age": "5 years",
             "description": "Kazama is one of Shinchan's classmates and friends. He is a smart and studious boy who often finds himself at odds with Shinchan's mischievous behavior. Despite their differences, they share a strong bond of friendship.",
@@ -110,7 +116,7 @@
                 "Bo",
                 "Ai"
             ],
-            "image": "/images/nene.jpg"
+            "image": "/images/nene.webp"
         },
         {
             "name": "Masao Sato",
@@ -144,15 +150,15 @@
                 "Masao",
                 "Ai"
             ],
-            "image": "/images/bo.jpg"
+            "image": "/images/bo.webp"
         },
         {
             "name": "Ai Suotome",
             "age": "5 years",
-            "description": "Ai is a new student who joins Shinchan's class later in the series. She is a sweet and soft-spoken girl who becomes fast friends with Shinchan and the others. She has a kind and caring nature.",
+            "description": "Ai is a new student who joins Shinchan's class later in the series. She is born in New York and is from an extremely rich family. She is always seen riding in a black limousine and with a bodyguard. She is very manipulative and purposely bends people to her will just because she can. she fell in love with Shinchan and being the manipulator she is, uses his weaknesses (Action Mask, Chocobi, etc.) to get him to notice her.",
             "hobbies": [
-                "Solving puzzles",
-                "Helping others"
+                "Reading",
+                "Watching dramas"
             ],
             "friends": [
                 "Shinchan",
@@ -162,6 +168,25 @@
                 "Bo"
             ],
             "image": "/images/ai.jpg"
+        },
+        {
+            "name": "Midori Ishizaka",
+            "description": "She is a 24 years old teacher in Sunflower class. Yoshinaga is her maiden name. She is always in bitter rivalry with Ume Matsuzaka and they get into bickerings and arguments over little things. However she takes care of Matsuzaka too. She does not have a good relationship with Shin-chan, which is one of her students. She's someone who gets annoyed at even a glance of Shin-chan and she's always running away from him. She thinks if he's around then everything will be ruined. She's very obnoxious and thinks that she's the most beautiful.",
+            "image": "/images/yoshinaga.webp"
+        },
+        {
+            "name": "Ume Matsuzaka",
+            "age": "24 years",
+            "description": "Ume is a teacher in Shinchan's school and she is single. She likes to live stylishly in public but she actually struggles to save her money for accessories and lives in a very cheap, dusty apartment.",
+            "hobbies": [
+                "Shopping"
+            ],
+            "image": "/images/ume.jpeg"
+        },
+        {
+            "name": "Nanako Ohara",
+            "description": "Nanako is a 20 years old college girl with whom Shinchan is in love. Nanako is the only girl that is unruffled by Shin-chan's behavior, and the only one Shinchan tries to behave for, even being shy and blushing around her. She dreams of being a kindergarten teacher.",
+            "image": "/images/nanako.webp"
         },
         {
             "name": "Action Kamen",
@@ -181,21 +206,6 @@
                 "Teleportation"
             ],
             "image": "/images/buriburizaemon.webp"
-        },
-        {
-            "name": "Ume Matsuzaka",
-            "age": "24 years",
-            "description": "Ume is a teacher in Shinchan's school and she is single. She likes to live stylishly in public but she actually struggles to save her money for accessories and lives in a very cheap, dusty apartment.",
-            "hobbies": [
-                "Shopping"
-            ],
-            "image": "/images/ume.jpeg"
-        },
-        {
-            "name": "Nanako Ohara",
-            "age": "20 years",
-            "description": "Nanako is a college girl with whom Shinchan is in love. Nanako is the only girl that is unruffled by Shin-chan's behavior, and the only one Shinchan tries to behave for, even being shy and blushing around her. She dreams of being a kindergarten teacher.",
-            "image": "/images/nanako.webp"
         }
     ]
 }
