@@ -9,11 +9,10 @@ function HeroSection() {
       <div className="hero-content">
         <img src={logo} alt="Shinchan logo" width="200" className="logo" />
         <p className="intro">
-          SShinnosuke Nohara is 5 years old and goes to kindergarten.He goes
-          wild everyday with his unique friends in the Kasukabe Defense
-          Organization and his little sister, Himawari. His mom, dad, and
-          teachers often find themselves caught up in the chaos that Shinchan
-          effortlessly creates!
+          Shinnosuke Nohara is 5 years old and goes to kindergarten.He goes wild
+          everyday with his unique friends in the Kasukabe Defense Organization
+          and his little sister, Himawari. His mom, dad, and teachers often find
+          themselves caught up in the chaos that Shinchan effortlessly creates!
         </p>
       </div>
     </StyledHeroSection>

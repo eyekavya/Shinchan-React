@@ -8,3 +8,9 @@
   font-family: "Noto Sans", sans-serif;
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 720px) {
+  .subheading {
+    font-size: 1.5rem;
+  }
+}
