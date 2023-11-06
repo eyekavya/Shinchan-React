@@ -38,7 +38,6 @@ export const StyledShinchanAnimation = styled.section`
   }
   .forhead,
   .forhead:after {
-    content: "";
     width: 220px;
     height: 181px;
     background: #fbc6a3;
@@ -248,5 +247,9 @@ export const StyledShinchanAnimation = styled.section`
       margin-top: 0;
       overflow: visible;
     }
+  }
+
+  @media screen and (max-width: 720px) {
+    scale: 70%;
   }
 `;

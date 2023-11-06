@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .subheading-wrapper {
   text-align: center;
 }

@@ -39,6 +39,10 @@ function CharacterDetail() {
             <p>{characterDetails?.description}</p>
           </div>
 
+          <div className="photo-mobile">
+            <ShinchanAnimation />
+          </div>
+
           {characterDetails?.age && (
             <div className="flex-details">
               <h4>Age: </h4>
@@ -107,8 +111,7 @@ function CharacterDetail() {
           )}
         </div>
 
-        <div className="photo">
-          {/* <img src={characterDetails?.image} alt="character" /> */}
+        <div className="photo-desktop">
           <ShinchanAnimation />
         </div>
       </div>
