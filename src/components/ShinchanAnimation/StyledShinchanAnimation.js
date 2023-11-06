@@ -5,7 +5,6 @@ export const StyledShinchanAnimation = styled.section`
     background: #3e505e;
   }
   .face {
-    /* height: 600px; */
     width: 350px;
     position: relative;
     margin: auto;
@@ -38,7 +37,6 @@ export const StyledShinchanAnimation = styled.section`
   }
   .forhead,
   .forhead:after {
-    content: "";
     width: 220px;
     height: 181px;
     background: #fbc6a3;
@@ -248,5 +246,9 @@ export const StyledShinchanAnimation = styled.section`
       margin-top: 0;
       overflow: visible;
     }
+  }
+
+  @media screen and (max-width: 720px) {
+    scale: 70%;
   }
 `;

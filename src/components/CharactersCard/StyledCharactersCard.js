@@ -56,17 +56,38 @@ export const StyledHeroSection = styled.section`
     padding: 10px 15px;
     color: #111;
     text-align: center;
-    visibility: hidden;
-    opacity: 0;
     transition: 0.2s ease-in-out;
     font-family: "Noto Sans", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.2px;
+
+    h3 {
+      visibility: visible;
+      opacity: 1;
+      position: relative;
+      bottom: -3rem;
+      transition: 0.5s ease-in-out;
+    }
+
+    p {
+      visibility: hidden;
+      opacity: 0;
+      transition: 0.3s ease-in-out;
+    }
   }
 
   .container .card:hover .content {
-    visibility: visible;
-    opacity: 1;
     transition-delay: 0.2s;
+
+    h3 {
+      visibility: visible;
+      opacity: 1;
+      bottom: 0;
+    }
+
+    p {
+      visibility: visible;
+      opacity: 1;
+    }
   }
 `;

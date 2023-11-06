@@ -9,12 +9,10 @@ function HeroSection() {
       <div className="hero-content">
         <img src={logo} alt="Shinchan logo" width="200" className="logo" />
         <p className="intro">
-          Shinchan is the titular character of the popular Japanese manga and
-          anime series "Crayon Shinchan." He's a cheeky, five-year-old boy with
-          a mischievous streak and a knack for getting into hilarious
-          situations. With his distinctive red overalls and playful spirit,
-          Shinchan's adventures are a delightful blend of comedy and
-          heartwarming moments that have captivated audiences of all ages.
+          Shinnosuke Nohara is 5 years old and goes to kindergarten.He goes wild
+          everyday with his unique friends in the Kasukabe Defense Organization
+          and his little sister, Himawari. His mom, dad, and teachers often find
+          themselves caught up in the chaos that Shinchan effortlessly creates!
         </p>
       </div>
     </StyledHeroSection>

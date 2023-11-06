@@ -8,4 +8,10 @@ export const StyledFooter = styled.section`
     position: relative;
     bottom: -4px;
   }
+  @media screen and (max-width: 720px) {
+    .footer {
+      height: 140px;
+      margin-top: 2rem;
+    }
+  }
 `;

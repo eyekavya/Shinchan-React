@@ -68,12 +68,64 @@ export const StyledCharacterDetail = styled.section`
     letter-spacing: 0.2px;
   }
 
-  .photo img {
+  .photo-mobile {
+    display: none;
+  }
+
+  .photo-desktop img {
     width: 100%;
     height: auto;
   }
 
   h4 {
     align-items: start;
+  }
+
+  @media screen and (max-width: 720px) {
+    .headImage {
+      overflow: hidden;
+      img {
+        width: unset;
+        height: 150px;
+      }
+    }
+
+    .flex-details {
+      flex-wrap: wrap;
+      margin: 0 1rem;
+      div,
+      p,
+      h4 {
+        width: 100%;
+        text-align: left;
+      }
+      h4 {
+        margin-bottom: 0;
+      }
+    }
+
+    .character-container {
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+
+    .name h3 {
+      font-size: 1.2rem;
+    }
+
+    .description p {
+      line-height: 1.8;
+      letter-spacing: 0px;
+      margin: 0 1rem;
+    }
+
+    .photo-desktop {
+      display: none;
+    }
+    .photo-mobile {
+      display: block;
+      height: auto;
+      margin-bottom: 10rem;
+    }
   }
 `;

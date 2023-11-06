@@ -27,4 +27,16 @@ export const StyledHeroSection = styled.section`
     font-weight: 700;
     font-family: "Noto Sans", sans-serif;
   }
+
+  @media screen and (max-width: 720px) {
+    .hero-content .logo {
+      margin-top: 5rem;
+      margin-bottom: 2rem;
+    }
+
+    .intro {
+      width: 80%;
+      font-size: 1rem;
+    }
+  }
 `;
