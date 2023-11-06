@@ -5,7 +5,6 @@ export const StyledShinchanAnimation = styled.section`
     background: #3e505e;
   }
   .face {
-    /* height: 600px; */
     width: 350px;
     position: relative;
     margin: auto;

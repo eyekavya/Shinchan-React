@@ -124,7 +124,6 @@ export const StyledCharacterDetail = styled.section`
     }
     .photo-mobile {
       display: block;
-      /* width: 100%; */
       height: auto;
       margin-bottom: 10rem;
     }

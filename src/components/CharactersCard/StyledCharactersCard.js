@@ -66,11 +66,13 @@ export const StyledHeroSection = styled.section`
       opacity: 1;
       position: relative;
       bottom: -3rem;
+      transition: 0.5s ease-in-out;
     }
 
     p {
       visibility: hidden;
       opacity: 0;
+      transition: 0.3s ease-in-out;
     }
   }
 
