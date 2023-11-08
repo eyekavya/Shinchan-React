@@ -114,7 +114,7 @@ function CharacterDetail() {
                     Children:{" "}
                     {characterDetails?.family?.children?.map((e, i) => {
                       return (
-                        <div
+                        <span
                           key={i}
                           onClick={() => {
                             onClickName(e);
@@ -122,7 +122,7 @@ function CharacterDetail() {
                           className="char-link"
                         >
                           {e}
-                        </div>
+                        </span>
                       );
                     })}
                   </p>
@@ -137,15 +137,15 @@ function CharacterDetail() {
               <div>
                 {characterDetails?.friends?.map((e, i) => {
                   return (
-                    <div
+                    <span
                       key={i}
                       onClick={() => {
                         onClickName(e);
                       }}
                       className="char-link"
                     >
-                      {e}
-                    </div>
+                      {e},{" "}
+                    </span>
                   );
                 })}
               </div>

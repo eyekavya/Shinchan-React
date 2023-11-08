@@ -118,6 +118,10 @@ export const StyledCharacterDetail = styled.section`
       font-size: 1.2rem;
     }
 
+    .details {
+      width: 100%;
+    }
+
     .description p {
       line-height: 1.8;
       letter-spacing: 0px;
