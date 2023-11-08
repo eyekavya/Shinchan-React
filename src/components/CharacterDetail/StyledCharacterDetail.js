@@ -81,6 +81,11 @@ export const StyledCharacterDetail = styled.section`
     align-items: start;
   }
 
+  .char-link {
+    color: rgba(0, 136, 204, 1);
+    cursor: pointer;
+  }
+
   @media screen and (max-width: 720px) {
     .headImage {
       overflow: hidden;

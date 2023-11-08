@@ -13,10 +13,10 @@
             },
             "friends": [
                 "Kazama",
-                "Nene",
-                "Masao",
-                "Bo",
-                "Ai"
+                "Nene Sakurada",
+                "Masao Sato",
+                "Bo Suzuki",
+                "Ai Suotome"
             ],
             "hobbies": [
                 "Drawing inappropriate sketches"
@@ -38,8 +38,8 @@
             "family": {
                 "wife": "Mitsi Nohara",
                 "children": [
-                    "Shinchan",
-                    "Himawari"
+                    "Shinnosuke Nohara",
+                    "Himawari Nohara"
                 ]
             },
             "image": "/images/harry.jpg"
@@ -55,8 +55,8 @@
             "family": {
                 "husband": "Hiroshi Nohara",
                 "children": [
-                    "Shinchan",
-                    "Himawari"
+                    "Shinnosuke Nohara",
+                    "Himawari Nohara"
                 ]
             },
             "image": "/images/mitsi.png"
@@ -72,9 +72,9 @@
             "family": {
                 "parents": {
                     "father": "Hiroshi Nohara",
-                    "mother": "Misae Nohara"
+                    "mother": "Mitsi Nohara"
                 },
-                "brother": "Shinchan"
+                "brother": "Shinnosuke Nohara"
             },
             "image": "/images/himawari.jpg"
         },
@@ -93,11 +93,11 @@
                 "Reading"
             ],
             "friends": [
-                "Shinchan",
-                "Nene",
-                "Masao",
-                "Bo",
-                "Ai"
+                "Shinnosuke Nohara",
+                "Nene Sakurada",
+                "Masao Sato",
+                "Bo Suzuki",
+                "Ai Suotome"
             ],
             "image": "/images/kazama.jpg"
         },
@@ -110,11 +110,11 @@
                 "Singing"
             ],
             "friends": [
-                "Shinchan",
+                "Shinnosuke Nohara",
                 "Kazama",
-                "Masao",
-                "Bo",
-                "Ai"
+                "Masao Sato",
+                "Bo Suzuki",
+                "Ai Suotome"
             ],
             "image": "/images/nene.webp"
         },
@@ -127,11 +127,11 @@
                 "Collecting insects"
             ],
             "friends": [
-                "Shinchan",
+                "Shinnosuke Nohara",
                 "Kazama",
-                "Nene",
-                "Bo",
-                "Ai"
+                "Nene Sakurada",
+                "Bo Suzuki",
+                "Ai Suotome"
             ],
             "image": "/images/masao.jpg"
         },
@@ -144,11 +144,11 @@
                 "Eating snacks"
             ],
             "friends": [
-                "Shinchan",
+                "Shinnosuke Nohara",
                 "Kazama",
-                "Nene",
-                "Masao",
-                "Ai"
+                "Nene Sakurada",
+                "Masao Sato",
+                "Ai Suotome"
             ],
             "image": "/images/bo.webp"
         },
@@ -161,11 +161,11 @@
                 "Watching dramas"
             ],
             "friends": [
-                "Shinchan",
+                "Shinnosuke Nohara",
                 "Kazama",
-                "Nene",
-                "Masao",
-                "Bo"
+                "Nene Sakurada",
+                "Masao Sato",
+                "Bo Suzuki"
             ],
             "image": "/images/ai.jpg"
         },

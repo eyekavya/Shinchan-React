@@ -5,7 +5,7 @@ import headImage from "./../../images/header.svg";
 import underline from "./../../images/line-thin.svg";
 
 import data from "./../../data/shinchan.json";
-import { useLocation, useSearchParams } from "react-router-dom";
+import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
 import Footer from "../Footer";
 import ShinchanAnimation from "../ShinchanAnimation";
 
@@ -13,7 +13,12 @@ function CharacterDetail() {
   let [searchParams] = useSearchParams();
   const [characterDetails, setCharacterDetails] = useState();
 
+  const navigate = useNavigate();
   const location = useLocation();
+
+  const onClickName = (name) => {
+    navigate(`/character?name=${name}`);
+  };
 
   useEffect(() => {
     const details = data.characters.find(
@@ -21,7 +26,7 @@ function CharacterDetail() {
     );
     setCharacterDetails(details);
     window.scrollTo(0, 0);
-  }, [location.pathname]);
+  }, [location]);
 
   return (
     <StyledCharacterDetail>
@@ -54,24 +59,72 @@ function CharacterDetail() {
               <h4>Family: </h4>
               <div>
                 {characterDetails?.family?.parents?.father && (
-                  <p>Father: {characterDetails?.family?.parents?.father}</p>
+                  <p
+                    onClick={() => {
+                      onClickName(characterDetails?.family?.parents?.father);
+                    }}
+                    className="char-link"
+                  >
+                    Father: {characterDetails?.family?.parents?.father}
+                  </p>
                 )}
 
                 {characterDetails?.family?.parents?.mother && (
-                  <p>Mother: {characterDetails?.family?.parents?.mother}</p>
+                  <p
+                    onClick={() => {
+                      onClickName(characterDetails?.family?.parents?.mother);
+                    }}
+                    className="char-link"
+                  >
+                    Mother: {characterDetails?.family?.parents?.mother}
+                  </p>
                 )}
                 {characterDetails?.family?.sister && (
-                  <p>Sister: {characterDetails?.family?.sister}</p>
+                  <p
+                    onClick={() => {
+                      onClickName(characterDetails?.family?.sister);
+                    }}
+                    className="char-link"
+                  >
+                    Sister: {characterDetails?.family?.sister}
+                  </p>
                 )}
                 {characterDetails?.family?.brother && (
-                  <p>Brother: {characterDetails?.family?.brother}</p>
+                  <p
+                    onClick={() => {
+                      onClickName(characterDetails?.family?.brother);
+                    }}
+                    className="char-link"
+                  >
+                    Brother: {characterDetails?.family?.brother}
+                  </p>
                 )}
                 {characterDetails?.family?.wife && (
-                  <p>Wife: {characterDetails?.family?.wife}</p>
+                  <p
+                    onClick={() => {
+                      onClickName(characterDetails?.family?.wife);
+                    }}
+                    className="char-link"
+                  >
+                    Wife: {characterDetails?.family?.wife}
+                  </p>
                 )}
                 {characterDetails?.family?.children && (
                   <p>
-                    Children: {characterDetails?.family?.children.join(", ")}
+                    Children:{" "}
+                    {characterDetails?.family?.children?.map((e, i) => {
+                      return (
+                        <div
+                          key={i}
+                          onClick={() => {
+                            onClickName(e);
+                          }}
+                          className="char-link"
+                        >
+                          {e}
+                        </div>
+                      );
+                    })}
                   </p>
                 )}
               </div>
@@ -81,7 +134,21 @@ function CharacterDetail() {
           {characterDetails?.friends && (
             <div className="flex-details">
               <h4>Friends: </h4>
-              <p>{characterDetails?.friends.join(", ")}</p>
+              <div>
+                {characterDetails?.friends?.map((e, i) => {
+                  return (
+                    <div
+                      key={i}
+                      onClick={() => {
+                        onClickName(e);
+                      }}
+                      className="char-link"
+                    >
+                      {e}
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           )}
 
