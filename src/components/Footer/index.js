@@ -5,8 +5,9 @@ import { StyledFooter } from "./StyledFooter";
 function Footer() {
   return (
     <StyledFooter>
-      <div>
+      <div className="container">
         <img src={footer} alt="" className="footer" />
+        <p className="footer-text">Made with ❤️ by Kavya</p>
       </div>
     </StyledFooter>
   );
