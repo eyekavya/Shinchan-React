@@ -26,7 +26,7 @@ export const StyledCharacterDetail = styled.section`
   .character-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 4rem;
     width: 70%;
     margin: 4rem auto;

@@ -5,7 +5,7 @@ import headImage from "./../../images/header.svg";
 import underline from "./../../images/line-thin.svg";
 
 import data from "./../../data/shinchan.json";
-import { useSearchParams } from "react-router-dom";
+import { useLocation, useSearchParams } from "react-router-dom";
 import Footer from "../Footer";
 import ShinchanAnimation from "../ShinchanAnimation";
 
@@ -13,17 +13,16 @@ function CharacterDetail() {
   let [searchParams] = useSearchParams();
   const [characterDetails, setCharacterDetails] = useState();
 
-  console.log(searchParams.get("name"));
+  const location = useLocation();
 
   useEffect(() => {
     const details = data.characters.find(
       (e) => e.name === searchParams.get("name")
     );
-
     setCharacterDetails(details);
-  }, []);
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
 
-  //   console.log(details);
   return (
     <StyledCharacterDetail>
       <div className="headImage">

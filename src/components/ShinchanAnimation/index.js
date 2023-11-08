@@ -4,17 +4,17 @@ import { StyledShinchanAnimation } from "./StyledShinchanAnimation";
 function ShinchanAnimation() {
   return (
     <StyledShinchanAnimation>
-      <div class="face">
-        <div class="forhead"></div>
-        <div class="cheeks"></div>
-        <div class="ear"></div>
-        <div class="eyebrow left"></div>
-        <div class="eyebrow right"></div>
-        <div class="eye left"></div>
-        <div class="eye right"></div>
-        <div class="mouth"></div>
-        <div class="shy"></div>
-        <div class="shy right"></div>
+      <div className="face">
+        <div className="forhead"></div>
+        <div className="cheeks"></div>
+        <div className="ear"></div>
+        <div className="eyebrow left"></div>
+        <div className="eyebrow right"></div>
+        <div className="eye left"></div>
+        <div className="eye right"></div>
+        <div className="mouth"></div>
+        <div className="shy"></div>
+        <div className="shy right"></div>
       </div>
     </StyledShinchanAnimation>
   );
