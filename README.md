@@ -40,7 +40,7 @@ Dive into the playful world of Shinchan with Shinchan App, a React app that brin
 2. Navigate to the project directory.
 
    ```bash
-   cd shinchan
+   cd Shinchan-React
 
    ```
 
